@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body{
+    background-image: url("img/background.png2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    background-color: peachpuff;
+}
+
+p{
+    font-size: 40px;
+    /* font-family:  Helvetica; */
+    line-height: 1.65;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 40px;
+    /* font-family: Helvetica; */
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.info-footer{
+    text-align: center;
+}
+
+ul{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+}
+
+ol{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+}
+
+li{
+    font-size: 22px;
+    line-height: 1.65;
+}
+
+a{
+    text-decoration: none;
+    color:crimson;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 200, 226); 
+}
